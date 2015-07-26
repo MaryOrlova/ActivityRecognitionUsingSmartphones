@@ -10,7 +10,7 @@ run_analysis.R
 
 This script was created for Coursera Get and Clean Data course project.
 Aim of script is to create tidy dataset comfortable for analysis on the basis of original developers data.
-It putts up and creates tidy data set, that includes information on test and training subjects undergoing research, activities performed and both mean and standart deviation of all measurements. Than analyses average of each variable in first table for each activity and each subject. 
+It creates tidy data set from original data. IT includes information on test and training subjects undergoing research, activities performed and both mean and standart deviation of all measurements. Than in indipendent data table analyses average of each variable from first table for each activity and each subject and saves final result in text file. 
 
 ####For script are needed:
 plyr, dplyr and reshape2 R packages.
