@@ -8,7 +8,7 @@
 
 ## For scrip are needed:
 ## plyr, dplyr, reshape packages
-## Dataset, thet can be found on 
+## UCI HAR Dataset in working directory, that can be found on 
 ##https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 #Activating liraries.
@@ -98,7 +98,7 @@ rm(a,activLabels,test,train,features)
 name<-colnames(final)
 for (i in 1:length(name)) {
   name[i] = gsub("()","",fixed=TRUE, name[i])
-    name[i] = gsub("-mean","_Mean", name[i])
+  name[i] = gsub("-mean","_Mean", name[i])
   name[i] = gsub("-std","_StDev", name[i])
   name[i] = gsub("-","_", name[i])
   name[i] = gsub("Mag","Magnitude", name[i])
