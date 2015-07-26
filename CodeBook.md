@@ -1,8 +1,9 @@
-#R analysis of Human Activity Recognition Using Smartphones Dataset Version 1.0 by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-
-#HA_Recording_Clean_and_Summarised.txt
-
+####R analysis of Human Activity Recognition Using Smartphones Dataset Version 1.0 by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+=======================================
+HA_Recording_Clean_and_Summarised.txt
+=======================================
 1.Subject - ID of subject undergoing research
+
 2.Activity - activity performed by subject:
   WALKING
   WALKING_UPSTAIRS
@@ -10,13 +11,13 @@
   SITTING
   STANDING
   LAYING
-
-##Measuraments
+=============
+Measuraments
+=============
 Contains mean of all means and standard deviation measurements by subject and group.
 
 Acceler_XYZ -  features come from the 3-axial accelerometer.
 Gyro_XYZ - features come from the 3-axial Gyro-XYZ.
-
 The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcceler_XYZ and tGravityAcceler_XYZ)
 
 From body linear acceleration and angular velocity authors obtained Jerk signals (tBodyAccelerJerk_XYZ and tBodyGyroJerk_XYZ). 
@@ -25,7 +26,6 @@ Magnitude were calculated by use of Euclidean norm (tBodyAccelerMagnitude, tGrav
 
 prefix 't' stands for "time"
 prefix 'f' stands forFast Fourier Transform (FFT) 
-
 Mean - Mean, average
 StDev - Standard Deviation
                  
