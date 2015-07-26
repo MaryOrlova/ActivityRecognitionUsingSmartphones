@@ -19,10 +19,10 @@ Than an indipendent data is created, it contains average of each variable from f
 
 *For script are needed.*
 R packages:
--plyr
--dplyr
--reshape2 
-"UCI HAR Dataset" in working directory. Data can be gained here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- plyr
+- d plyr
+- reshape2 
+- "UCI HAR Dataset" in working directory. Data can be gained here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 *More detailed description on how script works. *
 -----------------------
@@ -34,7 +34,7 @@ subject_test.txt and y_test ar reading and cbinded in test table, descriptive va
 - 2 *"train" table is created.*
 Process of creating "train" table is simillar to "test" table. It uses data on subjects, activities and same measurements from train directory.
 
-- 3 *"final" table is created*
+- 3 *"final" table is created.*
 Script merges the "train" and the "test" together using bind_rows in "final" data frame.
 
 - 4 *Editing names of variables and labels.*
@@ -48,11 +48,11 @@ Using gsub column names are edited. Changes performed:
  - "Acc" -> "Acceler";
  - "BodyBody" -> "Body" (consydered as typo in original data);
 
-- 5 *SumUp data frame is created*
+- 5 *SumUp data frame is created.*
 Second independent "SumUp" data frame table is created. That is independent tidy data set created on the basis of the first data set. It includes average of each variable in first table for each activity and each subject.
 It is created using reshape2 package melt and dcast functions.
 
-- 6 *Saving results*
+- 6 *Saving results.*
 SumUp table is saved in working directory under name *"HA_Recording_Clean_and_Summarised.txt"*
 
 Data Set Information
