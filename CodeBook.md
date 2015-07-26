@@ -1,9 +1,8 @@
 ####R analysis of Human Activity Recognition Using Smartphones Dataset Version 1.0 by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-=======================================
-HA_Recording_Clean_and_Summarised.txt
-=======================================
-1.Subject - ID of subject undergoing research
 
+HA_Recording_Clean_and_Summarised.txt
+
+1.Subject - ID of subject undergoing research
 2.Activity - activity performed by subject:
   WALKING
   WALKING_UPSTAIRS
@@ -11,9 +10,9 @@ HA_Recording_Clean_and_Summarised.txt
   SITTING
   STANDING
   LAYING
-=============
+
 Measuraments
-=============
+
 Contains mean of all means and standard deviation measurements by subject and group.
 
 Acceler_XYZ -  features come from the 3-axial accelerometer.
