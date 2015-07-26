@@ -25,13 +25,13 @@ Process of creating "train" table is simillar to "test" table. It uses data on s
 Than script merges the "train" and the "test" together using bind_rows and "final" table is created.
 activity_labels.txt is used to replace numeric Activity labels in "final".
 Using gsub column names are edited. Changes performed:
- "()" - deleted
- "-mean" ->"_Mean"
- "-std" ->_"StDev"
- "-" -> "_"
- "Mag" -> "Magnitude"
- "Acc" -> "Acceler"
- "BodyBody" -> "Body" (consydered as typo in original data)
+ "()" - deleted;
+ "-mean" ->"_Mean";
+ "-std" ->_"StDev";
+ "-" -> "_";
+ "Mag" -> "Magnitude";
+ "Acc" -> "Acceler";
+ "BodyBody" -> "Body" (consydered as typo in original data);
 
 Second table (valled SumUp in script)
 Is independent tidy data set created on the basis of the first data set. It includes average of each variable in first table for each activity and each subject.

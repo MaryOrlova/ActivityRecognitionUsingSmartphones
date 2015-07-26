@@ -2,7 +2,7 @@
 
 HA_Recording_Clean_and_Summarised.txt
 
-1.Subject - ID of subject undergoing research
+1.Subject - ID of subject undergoing research;
 2.Activity - activity performed by subject:
   WALKING
   WALKING_UPSTAIRS
@@ -23,10 +23,10 @@ From body linear acceleration and angular velocity authors obtained Jerk signals
 
 Magnitude were calculated by use of Euclidean norm (tBodyAccelerMagnitude, tGravityAccelerMagnitude, tBodyAccelerJerkMagnitude, tBodyGyroMagnitude, tBodyGyroJerkMagnitude).
 
-prefix 't' stands for "time"
-prefix 'f' stands forFast Fourier Transform (FFT) 
-Mean - Mean, average
-StDev - Standard Deviation
+prefix 't' stands for "time";
+prefix 'f' stands forFast Fourier Transform (FFT); 
+Mean - Mean, average;
+StDev - Standard Deviation;
                  
 3.tBodyAcceler_Mean_X
 4.tBodyAcceler_Mean_Y                     
