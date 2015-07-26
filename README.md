@@ -24,7 +24,7 @@ R packages:
 - reshape2 
 - "UCI HAR Dataset" in working directory. Data can be gained here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-*More detailed description on how script works. *
+More detailed description on how script works.
 -----------------------
 *Analys is performed in 5 steps.*
 
